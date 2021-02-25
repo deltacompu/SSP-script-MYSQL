@@ -1,0 +1,83 @@
+Metadata-Version: 1.1
+Name: simple-zpl2
+Version: 0.3.0
+Summary: For building ZPL2 strings for printing barcodes with Zebra or compatible label printers.
+Home-page: https://github.com/sacherjj/simple_zpl2
+Author: Joe Sacher
+Author-email: sacherjj@gmail.com
+License: MIT license
+Description: ===========
+        Simple ZPL2
+        ===========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/simple_zpl2.svg
+                :target: https://pypi.python.org/pypi/simple_zpl2
+        
+        .. image:: https://img.shields.io/travis/sacherjj/simple_zpl2.svg
+                :target: https://travis-ci.org/sacherjj/simple_zpl2
+        
+        .. image:: https://readthedocs.org/projects/simple-zpl2/badge/?version=latest
+                :target: https://simple-zpl2.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        .. image:: https://pyup.io/repos/github/sacherjj/simple_zpl2/shield.svg
+             :target: https://pyup.io/repos/github/sacherjj/simple_zpl2/
+             :alt: Updates
+        
+        
+        Simple Project to help in building ZPL2 strings for printing barcodes with Zebra or compatible label printers.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://simple-zpl2.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Methods for adding ZPL2 entries in the label data
+        * Error handling for data entered into methods, to maintain valid ZPL data
+        * Using web service to render ZPL2 label as PNG for quick development
+        * Simple class to print to network based ZPL label printer
+        
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.2.1 (2017-05-31)
+        ------------------
+        
+        * Pulled out individual methods to objects for barcodes
+        * Building tests for some of objects
+        
+        0.1.0 (2017-05-26)
+        ------------------
+        
+        * Initial Creation as Standalone package.
+        
+        
+Keywords: simple_zpl2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
